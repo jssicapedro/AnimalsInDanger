@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+:root{
+    --corbackground1: #A59D9C;
+    --corbackground2: #FDF8F8;
+    --corbotao: #FDF8F8;
+}
+
+body{
+    background-color: var(--corbackground1);
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+h1{
+    font-family: 'Rancho', cursive;
+    font-size: 6.3em;
+    padding-left: 15%;
+    margin-top: 1%;
+    max-width: 17%;
+}
+
+section{
+    max-width: 30%;
+    margin-left: 20%;
+}
+
+section p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.6em;
+    word-spacing: 1em;
+    text-align: justify; 
+    margin-bottom: 18%;
+    margin-top: 20%;
+}
+
+article a{  
+    margin-left: 20%;  
+    text-decoration: none;
+    color: #000;
+    background-color: var(--corbotao);
+    border-radius: 5px;
+    padding: 11px 63px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    font-size: 1.3em;
+}
+
+aside img{
+    width: 56%;
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+}
+
+div#choose{
+    position: absolute;
+    width: 100%;
+    height: 1017px;
+    left: 0px;
+    top: 100%;
+    background: var(--corbackground2);
+}
+
+div#choose h2{
+    color: #a29896;
+    font-weight: bold;
+    text-align: center;
+    font-size: 4.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#choose hr{
+    position: absolute;
+    width: 90%;
+    margin: 0% 5%;
+    top: 20%;
+    border: 1px solid #a59d9c;
+}
+
+div#choose ul{
+    list-style: none;
+    display: flex;
+    padding: 0%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+div#choose ul li{
+    margin: 0 auto 0 4%;
+    color: #A59D9C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div#choose ul li h3{
+    padding-left: 19%;
+}
+
+
+div#choose ul li a{
+margin: auto;
+}
+ 
+div#choose ul li a img{
+width: 130%;
+}

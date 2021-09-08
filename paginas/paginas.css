@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+:root{
+    --corbackgroundpaginas: #E7E0DE;
+    --corbackground1: #A59D9C;
+    --corhover: rgb(85, 83, 81);
+    --cortitulomenus: rgba(39, 37, 36, 0.589);
+}
+
+body{
+    background-color: var(--corbackgroundpaginas);
+    overflow: hidden;
+    margin: 0%;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+h1{
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 6.3em;
+    padding-left: 15%;
+    margin-bottom: 0%;
+    max-width: 17%;
+    font-weight: 100;
+}
+
+h2{
+    font-family: 'Rancho', cursive;
+    font-size: 6.3em;
+    padding-left: 15%;
+    margin-top: 1%;
+    max-width: 17%;
+    font-weight:bold;
+}
+
+div.vetorfish{
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    left: 56%;
+    top: 17%;
+    transform: rotate(-35deg);
+    background: linear-gradient(234.77deg, #4DD1E8 21.18%, rgba(20, 136, 156, 0.54) 69.03%);
+    border-radius: 40% 5% 17% 11%;
+    -webkit-filter: blur(2px); /*Adiciona blur ao vetor*/
+}
+
+img.fish{
+    position: relative;
+    margin-top: -18%;
+    width: 73%;
+    left: 38%;
+    transform: rotate(-4.64deg);
+}
+
+div.vetoramphibians{
+    position: absolute;
+    width: 6%;
+    height: 2000px;
+    right: 37%;
+    top: -20%;
+    transform: rotate(210deg);
+    background: linear-gradient(#593407 11.9%, #9DA67C 91.93%);
+    -webkit-filter: blur(2px);
+}
+
+img.amphibians{
+    position: relative;
+    margin-top: -18%;
+    width: 35.5%;
+    left: 56%;
+    transform: rotate(-4.64deg);
+}
+
+/**/
+
+div.vetorreptiles{
+    transform: rotate(-28.64deg);
+    position: absolute;
+    width: 39%;
+    height: 45%;
+    border-radius: 12% 27%;
+    right: 5%;
+    top: 14%;
+    background: linear-gradient(27.84deg, #607338 38.67%, rgba(105, 175, 191, 0.58) 90.84%);
+    -webkit-filter: blur(2px);
+}
+
+img.reptiles{
+    position: relative;
+    width: 50%;
+    margin-top: -20.8%;
+    margin-left: 49%;
+    margin-bottom: 7.3%;
+}
+
+/**/
+
+div.vetorbirds{
+    position: absolute;
+    left: 57%;
+    top: 68%;
+    width: 51%;
+    height: 5%;
+    background: linear-gradient(32.84deg, #593527 62.07%, #C5A28F 91.93%);
+    transform: rotate(-157deg);
+}
+
+img.birds{
+    position: relative;
+    width: 27%;
+    margin-top: -20.8%;
+    margin-left: 49%;
+    margin-bottom: -3.8%;
+}
+
+/**/
+
+div.vetormammals{
+    position: absolute;
+    left: 54%;
+    top: 14%;
+    width: 42%;
+    height: 59%;
+    border-radius: 25% 44% 13% 32% / 58% 9% 40% 12%;
+    background: linear-gradient(187.6deg, rgba(166, 130, 109, 0.78) 5.26%, #A69F44 76.06%);
+    transform: rotate(2.03deg);
+}
+
+img.mammals{
+    position: relative;
+    width: 70%;
+    margin-top: -22.5%;
+    margin-left: 26.2%;
+    margin-bottom: 1.65%;
+    transform: rotate(2deg);
+    border-radius: 29% 42% 6% 32% / 58% 9% 40% 12%;
+}
+
+
+section{
+    margin-top: -25%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-top: 10%;
+}
+
+ul li{
+    position: relative;
+    height: 293px;
+    width: 202px;
+    margin: 2% auto;
+    background-color: rgba(255, 255, 255, 0.287);
+    border-radius: 2% 10% 10% 2%;
+    box-shadow: 4px 5px 8px 0px #00000026;;
+}
+
+ul li a {
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li a h3 {
+    font-family: monospace;
+    font-size: 18pt;
+    color: var(--cortitulomenus);
+    padding-top: 100%;
+}
+
+footer{
+    background-color: rgb(255 255 255 / 39%);
+    min-height: 41px;
+    margin-top: 4%;
+    -webkit-filter: blur(0.5px);
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a p {
+    text-align: center;
+    font-size: 16pt;
+    text-align: center;
+    padding: 10px;
+    color: var(--corbackground1);
+}
+
+footer a p:hover{
+    color: var(--corhover);
+}
+
+@media only screen and (max-width: 1060px){
+    
+    h1{
+        font-size: 3.3em;
+        padding-left: 15%;
+        margin-bottom: 0%;
+        max-width: 17%;
+    }
+    
+    h2{
+        font-size: 3.3em;
+        padding-left: 15%;
+        margin-top: 1%;
+        max-width: 17%;
+    }
+
+    div.vetorfish{
+        right: 62%;
+        top: 12%;
+    }
+
+    img.fish{
+        width: 100%;
+        left: 25%;
+        top: 106px;
+    }
+
+/**/
+
+    div.vetoramphibians{
+        right: 62%;
+        top: -20%;
+    }
+    
+    img.amphibians{
+        width: 50%;
+        left: 45%;
+    }
+
+/**/
+    div.vetorreptiles{
+        width: 44%;
+        height: 26%;
+        right: 5%;
+        top: 20%;
+    }
+
+    img.reptiles{
+    width: 60%;
+    margin-top: -19.8%;
+    margin-left: 42%;
+    margin-bottom: 15%;
+    }
+
+    section{
+        margin-top: -40%;
+    }
+    
+    ul{
+        display: block;
+        margin: 11% 1%;
+        padding: 0%;
+
+    }
+    
+    ul li{
+       width: 100%;
+       height: 80px;
+       border-radius: 0;
+    }
+
+    ul li a h3 {
+        padding-top: 3%;
+        color: rgb(80, 73, 73);
+    }
+}
+
+@media only screen and (max-width: 500px){
+    img.fish{
+        width: 150%;
+        left: -13%;
+        margin-top: -30%;
+    }
+
+    img.amphibians{
+        margin-bottom: 13%;
+    }
+
+    div.vetoramphibians {
+        right: 93%;
+    }
+
+    img.reptiles{
+        width: 80%;
+        margin-left: 33%;
+    }
+}
