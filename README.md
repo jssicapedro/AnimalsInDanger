@@ -15,7 +15,8 @@ Espero aumentar a dignidade e o conhecimento dos perigos que todos os dias fazem
 Nesta primeira página (index.html) escolhe o tipo de animal que mais lhe preocupa;
 
 Depois em cada página animal, pode escolher o continente.
-ex. ![5](https://user-images.githubusercontent.com/67608094/132513488-b3c46ce7-a54f-4384-ae7d-04dc3452b042.jpg)
+ex: 
+![5](https://user-images.githubusercontent.com/67608094/132513488-b3c46ce7-a54f-4384-ae7d-04dc3452b042.jpg)
 
 
 
