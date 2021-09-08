@@ -10,7 +10,14 @@ Site ainda em Construção
 Espero aumentar a dignidade e o conhecimento dos perigos que todos os dias fazemos estes nossos companheiros passsar.
 
 <hr>
-#########
-<hr>
-![1](https://user-images.githubusercontent.com/67608094/132512392-c957e24c-273d-4c77-95d8-90ad16587348.jpg)
+
+![1](https://user-images.githubusercontent.com/67608094/132513110-46d08f40-3f6c-4412-8184-eaba091e51df.jpg)
+
+Nesta primeira página (index.html) escolhe o tipo de animal que mais lhe preocupa;
+
+Depois em cada página animal, pode escolher o continente.
+ex. ![5](https://user-images.githubusercontent.com/67608094/132513488-b3c46ce7-a54f-4384-ae7d-04dc3452b042.jpg)
+
+
+
 
